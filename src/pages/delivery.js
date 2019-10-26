@@ -2,7 +2,7 @@ import React from 'react';
 import './css/pickup&deliveryOpt.css'; 
 //import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 //import PickupDeliveryOpt from './pickup&deliveryOpt';
-
+{/* this class is for delivery option page that link from pickup and delivery page */} 
 const Delivery = () => {
         return (
             <div>

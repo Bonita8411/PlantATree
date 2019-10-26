@@ -1,0 +1,10 @@
+
+language: node_js
+node_js:
+  - "10.16.3"
+cache: npm
+script:
+  - echo 'Build starts with TRAVIS!!'
+  - echo 'Installing Deps!'
+  - echo 'Testing!'
+  - npm run test

@@ -24,12 +24,12 @@ header{
 	height:3000px;
 }
 
-footer{
+/* footer{
     height: 10%;
 	background-color: #404040;
 	border-top: solid;
     
-}
+} */
 .nav{
 	margin:-48px auto ;
 	background-color: black;
@@ -87,15 +87,15 @@ li a:hover{
 	
 }
 #cont5{
-	height: 690px;
+	height: 1090px;
 	float:left;
-	margin-top:50px;
+	margin-top:30px;
 }
 #cont6{
 	width:650px;
 	margin-top:20px;
 	float:left;
-	font-size:18px;
+	font-size:20px;
 }
 
 #p_cont7{
@@ -106,15 +106,18 @@ li a:hover{
 #cont8{
 	width:300px;
 	float: left;
+	margin-top: 50px;
 }
 #cont9{
 	width:300px;
+	margin-top: 50px;
 	float:right;
 	border-bottom: solid;
 	text-align: right;
 }
 #cont10{
-	text-align: right;
+	float:right;
+	margin-top: 300px;
 }
 #cont11{
 	float:right;
@@ -161,6 +164,23 @@ li a:hover{
 #cont19{
 	width:650px;
 	margin-top:20px;
-	float:right;
 	font-size:18px;
+}
+#cont20{
+	margin-left: 10px;	
+}
+#cont21{
+	float: left;
+}
+#cont22{
+	width:250px;
+	height:25px;
+}
+#cont23{
+	width:350px; 
+	height:350px;
+}
+#cont24{
+	width:650px; 
+	height:650px;
 }

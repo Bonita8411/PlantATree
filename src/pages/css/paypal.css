@@ -39,18 +39,18 @@ header{
     background-color: rgba(255, 255, 255, 0.3);
     height: 70%;
 }
-
+/* 
 footer{
     height: 10%;
     background-color: #404040; 
     border-top: solid;
-}
-.wrapper1{
+} */
+/* .wrapper1{
 	margin: 0 auto 0;
 	width: 800px;
-	height: 106px;
+  height: fit-content;
 	
-}
+} */
 .nav{
 	margin:-30px auto;
 	background-color: rgba(17, 2, 2, 0.3);
@@ -62,7 +62,7 @@ ul{
 	margin: 3em 0;
 	height: 50px;
 }
-
+/* 
 li{
 	list-style:none;
 	display: block;
@@ -86,7 +86,7 @@ li a{
 li a:hover{
 
 	background-color:hsl(344, 6%, 34%);
-}
+} */
 
 
 

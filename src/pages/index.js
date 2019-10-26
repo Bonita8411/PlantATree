@@ -1,13 +1,13 @@
 export { default as Home } from './Home';
-export { default as Product } from './Product';
+export { default as RitemList } from '../Component/RitemList';
 export { default as Special } from './Special';
 export { default as Credit } from './Credit';
 export { default as Paypal } from './Paypal';
 export { default as logIn } from './logIn';
 export { default as Stores } from './Stores';
-export { default as item } from './item';
+export { default as ItemDetail } from '../Component/ItemDetail';
 export { default as Register } from './Register';
 export { default as Tips } from './Tips';
 export { default as Advertisement } from './Advertisement';
-export { default as Cart } from './Cart';
+export { default as CartComp } from '../Component/Cart/CartComp';
 export { default as PickupDeliveryOpt } from './pickup&deliveryOpt'; 

@@ -3,6 +3,19 @@ import acer from './images/acer.jpg';
 import nara from './images/nara.jpg';
 import './css/tips.css';
 
+/**
+ * Tip File contains Tips about how to grow trees according to their criteria.
+ * This page has not been taken care of as to the team has found too many problem on 
+ * to the other more important user stories.
+ * 
+ * The team only managed to return certain trees with description.
+ * 
+ * The page is supposedly using css for style. 
+ * Bootstrap could have been implemented if we had time.
+ * 
+ * 
+ */
+
 const Tips = () => {
         return(
         <div className="main-wrapper">

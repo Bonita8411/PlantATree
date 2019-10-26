@@ -1,4 +1,6 @@
 import React from 'react';
+import { inCart } from '../Component/Cart/InCart';
+import { Link } from 'react-router-dom';
 import './css/login.css'
 
 const logIn = () => {
@@ -6,7 +8,7 @@ const logIn = () => {
         <div>
                 <div id="container">
         
-        <div class="page_name">
+        <div className="page_name">
             <h3>SIGN IN</h3>
         </div>
     
@@ -17,17 +19,17 @@ const logIn = () => {
                 </div>
                 
                 <div  id="uname_input_cont">
-                    <label for="uname">Email (or username): <br/></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required/>
+                    <label htmlFor="uname">Email (or username): <br/></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required="Please fill this field."/>
 
-                    <label for="psw"><br/>Password:<br/></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required/>
+                    <label htmlFor="psw"><br/>Password:<br/></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required="Please fill this field."/>
                     
                     <button id="register_btn" class="btn" type="btn" name="btn" href="./Register.js">
                     Register
                     </button>
-
-                    <button id="login_btn" type="submit">Login</button>
+                    <Link to="/" onClick={()=>inCart.resetCart()}>
+                    <button id="login_btn" type="submit" >Login</button></Link>
                 </div>
             </div>
         </div>
